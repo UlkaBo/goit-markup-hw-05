@@ -8,22 +8,22 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/styles.css">
-
+</head>
 <body>
         <header>
             <div class="horizontal-flex container">
                 <nav class="horizontal-flex">
                     <a class="logo" href="./index.html"><span class='accent'>Web</span>Studio</a>
                     <ul class="horizontal-flex site-nav list">
-                        <li><a class="link " href="./index.html">Студия</a></li>
-                        <li><a class="link  current" href="./portfolio.html">Портфолио</a></li>
-                        <li><a class="link  last-child" href="">Контакты</a></li>
+                        <li><a class="site-nav-link link  " href="./index.html">Студия</a></li>
+                        <li><a class="site-nav-link link current" href="./portfolio.html">Портфолио</a></li>
+                        <li><a class="site-nav-link link  last-child" href="">Контакты</a></li>
                     </ul>
                 </nav>
                 <ul class="horizontal-flex header-address list">
                     <li>
                         <a class="link email-telephone-link" href="mailto:info@devstudio.com">
-                            <svg class="email-telephone-link-icon" width="16" height="12">
+                            <svg class="email-icon email-telephone-link-icon " width="16" height="12">
                                 <use href="./images/sprite.svg#envelope"></use>
                             </svg>
                             <p class="email-telephone">info@devstudio.com </p>
@@ -31,7 +31,7 @@
                     </li>
                     <li>
                         <a class="email-telephone-link link" href="tel:+380961111111">
-                            <svg class="email-telephone-link-icon" width="10" height="26">
+                            <svg class="email-telephone-link-icon" width="10" height="16">
                                 <use href="./images/sprite.svg#smartphone"></use>
                             </svg>
                             <p class="email-telephone">+38 096 111 11 11</p>
@@ -39,6 +39,7 @@
                     </li>
                 </ul>
             </div>
+        
         </header>
 
     <main>
@@ -56,8 +57,16 @@
                 <ul class="list grid-flex">
                     <li class='our-works-card'>
                         <a href="#" class="our-works-card-link">
-                            <img src="./images/portfolio/img.jpg" width="370" height="294" alt="заглавная страница сайта с тремя фотографиями">
-                            <div class="card-box-description">
+                            <div class= "our-works-card-thumb">
+                                <img src="./images/portfolio/img.jpg" width="370" height="294" alt="заглавная страница сайта с тремя фотографиями">
+                                <div class = "our-works-card-thumb-overlay">
+                                    <p>
+                                        Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового
+                                        шпионажа и атак на защищённые сервера конкурентов.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="our-works-card-description">
                                 <h2 class="list-title">Технокряк</h2>
                                 <p class="list-description">Веб-сайт</p>
                             </div>
@@ -65,8 +74,17 @@
                     </li>
                     <li class='our-works-card'>
                         <a href="#" class="our-works-card-link">
-                            <img src="./images/portfolio/img-1.jpg" width="370" height="294" alt="фото двух волейболистов">
-                            <div class="card-box-description">
+                            <div class="our-works-card-thumb">
+                                <img src="./images/portfolio/img-1.jpg" width="370" height="294" alt="фото двух волейболистов">
+                                <div class="our-works-card-thumb-overlay">
+                                    <p>
+                                        Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для
+                                        цифрового
+                                        шпионажа и атак на защищённые сервера конкурентов.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="our-works-card-description">
                                 <h2 class="list-title">Постер New Orlean vs Golden Star</h2>
                                 <p class="list-description">Дизайн</p>
                             </div>
@@ -74,8 +92,17 @@
                     </li>
                     <li class='our-works-card'>
                         <a href="#" class="our-works-card-link">
-                            <img src="./images/portfolio/img-2.jpg" width="370" height="294" alt="Логотип ресторана ">
-                            <div class="card-box-description">
+                            <div class="our-works-card-thumb">
+                                <img src="./images/portfolio/img-2.jpg" width="370" height="294" alt="Логотип ресторана ">
+                                <div class="our-works-card-thumb-overlay">
+                                    <p>
+                                        Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для
+                                        цифрового
+                                        шпионажа и атак на защищённые сервера конкурентов.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="our-works-card-description">
                                 <h2 class="list-title">Ресторан Seafood</h2>
                                 <p class="list-description">Приложение</p>
                             </div>
@@ -83,8 +110,17 @@
                     </li>
                     <li class='our-works-card'>
                         <a href="#" class="our-works-card-link">
-                            <img src="./images/portfolio/img-3.jpg" width="370" height="294" alt="Фотография наушников">
-                            <div class="card-box-description">
+                            <div class="our-works-card-thumb">
+                                <img src="./images/portfolio/img-3.jpg" width="370" height="294" alt="Фотография наушников">
+                                <div class="our-works-card-thumb-overlay">
+                                    <p>
+                                        Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для
+                                        цифрового
+                                        шпионажа и атак на защищённые сервера конкурентов.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="our-works-card-description">
                                 <h2 class="list-title">Проект Prime</h2>
                                 <p class="list-description">Маркетинг</p>
                             </div>
@@ -92,8 +128,17 @@
                     </li>
                     <li class='our-works-card'>
                         <a href="#" class="our-works-card-link">
-                            <img src="./images/portfolio/img-4.jpg" width="370" height="294" alt="Две картонные коробки">
-                            <div class="card-box-description">
+                            <div class="our-works-card-thumb">
+                                <img src="./images/portfolio/img-4.jpg" width="370" height="294" alt="Две картонные коробки">
+                                <div class="our-works-card-thumb-overlay">
+                                    <p>
+                                        Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для
+                                        цифрового
+                                        шпионажа и атак на защищённые сервера конкурентов.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="our-works-card-description">
                                 <h2 class="list-title">Проект Boxes</h2>
                                 <p class="list-description">Приложение</p>
                             </div>
@@ -101,8 +146,17 @@
                     </li>
                     <li class='our-works-card'>
                         <a href="#" class="our-works-card-link">
-                            <img src="./images/portfolio/img-5.jpg" width="370" height="294" alt="Монитор с изображением карты">
-                            <div class="card-box-description">
+                            <div class="our-works-card-thumb">
+                                <img src="./images/portfolio/img-5.jpg" width="370" height="294" alt="Монитор с изображением карты">
+                                <div class="our-works-card-thumb-overlay">
+                                    <p>
+                                        Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для
+                                        цифрового
+                                        шпионажа и атак на защищённые сервера конкурентов.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="our-works-card-description">
                                 <h2 class="list-title">Inspiration has no Borders</h2>
                                 <p class="list-description">Веб-сайт</p>
                             </div>
@@ -110,8 +164,17 @@
                     </li>
                     <li class='our-works-card'>
                         <a href="#" class="our-works-card-link">
-                            <img src="./images/portfolio/img-6.jpg" width="370" height="294" alt="Фотография разворота журнала">
-                            <div class="card-box-description">
+                            <div class="our-works-card-thumb">
+                                <img src="./images/portfolio/img-6.jpg" width="370" height="294" alt="Фотография разворота журнала">
+                                <div class="our-works-card-thumb-overlay">
+                                    <p>
+                                        Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для
+                                        цифрового
+                                        шпионажа и атак на защищённые сервера конкурентов.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="our-works-card-description">
                                 <h2 class="list-title">Издание Limited Edition</h2>
                                 <p class="list-description">Дизайн</p>
                             </div>
@@ -119,8 +182,17 @@
                     </li>
                     <li class='our-works-card'>
                         <a href="#" class="our-works-card-link">
-                            <img src="./images/portfolio/img-7.jpg" width="370" height="294" alt="лейбл на шнурке">
-                            <div class="card-box-description">
+                            <div class="our-works-card-thumb">
+                                <img src="./images/portfolio/img-7.jpg" width="370" height="294" alt="лейбл на шнурке">
+                                <div class="our-works-card-thumb-overlay">
+                                    <p>
+                                        Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для
+                                        цифрового
+                                        шпионажа и атак на защищённые сервера конкурентов.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="our-works-card-description">
                                 <h2 class="list-title">Проект LAB</h2>
                                 <p class="list-description">Маркетинг</p>
                             </div>
@@ -128,8 +200,17 @@
                     </li>
                     <li class='our-works-card'>
                         <a href="#" class="our-works-card-link">
-                            <img src="./images/portfolio/img-8.jpg" width="370" height="294" alt="фотография открытого ноутбука">
-                            <div class="card-box-description">
+                            <div class="our-works-card-thumb">
+                                <img src="./images/portfolio/img-8.jpg" width="370" height="294" alt="фотография открытого ноутбука">
+                                <div class="our-works-card-thumb-overlay">
+                                    <p>
+                                        Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для
+                                        цифрового
+                                        шпионажа и атак на защищённые сервера конкурентов.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="our-works-card-description">
                                 <h2 class="list-title">Growing Business</h2>
                                 <p class="list-description">Приложение</p>
                             </div>
