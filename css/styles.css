@@ -518,6 +518,8 @@ img {
   position: absolute;
   top: 8px;
   right: 8px;
+  width: 30px;
+  height: 30px;
   padding-left: 10px;
   padding-top: 9px;
   padding-right: 9px;
@@ -589,7 +591,8 @@ img {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
-.our-works-card-link:hover .our-works-card-thumb-overlay {
+.our-works-card-link:hover .our-works-card-thumb-overlay,
+.our-works-card-link:focus .our-works-card-thumb-overlay {
   transform: translateY(0);
 }
 .our-works-card-thumb {
